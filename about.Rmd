@@ -8,6 +8,4 @@ output:
 
 # About This Page
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-
+Aboutr
