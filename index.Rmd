@@ -14,3 +14,7 @@ output:
 You can write content. This can be whatever you want to say to the world!!
 
 I learned all my data science from [P8105](https://p8105.com)
+
+To learn about this page, go [here](about.html)
+
+#because I have an About Page in HTML
