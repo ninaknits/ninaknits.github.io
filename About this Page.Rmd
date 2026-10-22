@@ -4,13 +4,10 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# About This Page
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
-You can write content. This can be whatever you want to say to the world!!
 
-I learned all my data science from [P8105](https://p8105.com)
