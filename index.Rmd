@@ -26,3 +26,5 @@ To go home, click [here](index.html)
 Heres a really cool picture that I took: 
 
 <img src="images/ted.jpg" style="width:75%">
+
+Another cool thing is scattperplots. Check this out [out](plots.html)
