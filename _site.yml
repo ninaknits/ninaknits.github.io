@@ -1,4 +1,4 @@
-name: "Yay internet!"
+name: "Nina Knitowski's website"
 output_dir: "."
 navbar:
   title: "Home"
@@ -8,9 +8,11 @@ navbar:
     - text: "Plots"
       href: plots.html
     - icon: fa-envelope fa-lg
-      href: mailto:<nina.knitowski@gmail.com>
+      href: mailto:nina.knitowski@gmail.com
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/ninaknits/
+    - text: "Resume"
+      href: resume.pdf
 output:
   html_document:
     theme: flatly

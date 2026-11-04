@@ -7,9 +7,9 @@ output:
 
 ---
 
-# This is Jeff's awesome website
+# This is Nina's awesome website
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif) 
+
 
 You can write content. This can be whatever you want to say to the world!!
 
