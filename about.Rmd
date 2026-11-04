@@ -10,9 +10,10 @@ output:
 
 # About Nina
 
+I graduated from the University of California, Los Angeles (UCLA) with a B.S. in Human Biology and Society in March 2025 with Cum Laude Honors. I am currently a Columbia Mailman School of Public Health Candidate in Epidemiology with a certificate in Applied Data Science and Biostatistics.
 
-I recently graduated from the University of California, Los Angeles (UCLA) with a B.S. in Human Biology and Society in March 2025 with Cum Laude Honors. I am currently a Columbia Mailman School of Public Health Candidate in Epidemiology with a focus on Biostatistics.
-
-My long-term goal is to bridge the gaps in our healthcare system that leave underserved populations behind—through data-driven research, public health policy, and compassionate, community-centered care.
+Here at Mailman, I work as a Research Assistant to improve cervical cancer screening. I am also Vice President of the Mailman Journalism Club where I run the podcast "Kind of a Big Health Deal" to bring conversations of health outside academia by interviewing a variety of Public Health Leaders. I volunteer in the community with Coach Dave, remotely as a Helpline Volunteer with AZLA, and previously with Read Ahead.
 
 You can [download my resume here](resume.pdf).
+
+You can access [Kind of a Big Health Deal](https://open.spotify.com/show/2V0e35ZtOBREP68FFSidKo)
