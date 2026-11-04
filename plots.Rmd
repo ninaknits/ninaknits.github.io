@@ -11,37 +11,20 @@ To learn about this page, go [here](about.html)
 
 # Here are some cool plots
 
-Here's a scatterplot
 
-Set Up
-```{r}
+```{r, include = FALSE}
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
 ```
 
 
-```{r}
+```{r, echo = FALSE}
 data("rest_inspec")
-knitr::opts_chunk$set(
-  fig.width = 6,
-  fig.asp = .6,
-  out.width = "90%"
-)
-
-theme_set(theme_minimal() + theme(legend.position = "bottom"))
-
-options(
-  ggplot2.continuous.colour = "viridis",
-  ggplot2.continuous.fill = "viridis"
-)
-
-scale_colour_discrete = scale_colour_viridis_d
-scale_fill_discrete = scale_fill_viridis_d
 ```
 
-
-```{r}
+# Here's a scatterplot of Inspection Scores Over Time for Manhattan Pizza Restaurants
+```{r, echo = FALSE}
 plot1= rest_inspec |>
   filter(
     boro == "Manhattan",
@@ -58,7 +41,10 @@ plot1= rest_inspec |>
     color = ~grade, text = ~text_label, alpha = 0.75)
 plot1
 ```
-```{r}
+
+# Here's a boxplot of Inspection Scores by Cuisine: 10 Most Common Cuisines in Manhattan
+
+```{r, echo = FALSE}
 top_cuisines = rest_inspec |>
   distinct(camis, cuisine_description) |>
   count(cuisine_description, sort = TRUE) |>
@@ -85,9 +71,9 @@ rest_inspec |>
     yaxis = list(title = "Inspection score (higher = more violations)")
   )
 ```
+# Here's a column bar of Restaurant Inspection Grades by Borough
 
-
-```{r}
+```{r, echo = FALSE}
 rest_inspec |>
   filter(grade %in% c("A", "B", "C"), boro != "Missing") |>
   distinct(camis, inspection_date, .keep_all = TRUE) |>
