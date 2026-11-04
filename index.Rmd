@@ -9,11 +9,11 @@ output:
 
 # Brief Introdcution
 
-Hi everyone! I am a second year MPH candidate at Columbia Mailman's School of Public Health. With a background as an Emergency Medical Technician in Southern Deleware, I am interested in improving health equity in rural areas and focused on community-centered solutions. At Mailman, I am gaining skills in data analysis in hopes of being able to recognize gaps in inequity and addressing them.
+Hi everyone! I am a second year MPH candidate at Columbia Mailman's School of Public Health. My long-term goal is to bridge the gaps in our healthcare system that leave underserved populations behind—through data-driven research, public health policy, and compassionate, community-centered care. 
 
 To learn about this Nina Knitowski, go [here](about.html)
 
-#Check out my About Page to Learn More About my Background
+# Check out my About Page to Learn More About my Background
 
 To go home, click [here](index.html)
 
@@ -22,7 +22,7 @@ To go home, click [here](index.html)
 <img src="images/Headshot.jpg" style="width:75%">
 
 
-#Other Links 
+# Other Links 
 
 To see my [linkedin](https://www.linkedin.com/in/nina-knitowski/)
 
@@ -30,7 +30,7 @@ To see my coding work in [github](https://github.com/ninaknits)
 
 [Email me](mailto:nina.knitowski@gmail.com)
 
-#Scatter Plots
+# Scatter Plots
 
 Another cool thing is scattperplots. Check this out [out](plots.html)
 

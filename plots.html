@@ -358,15 +358,10 @@ div.tocify {
 </div>
 
 
-<div id="this-is-ninas-awesome-website" class="section level1">
-<h1>This is Nina’s awesome website</h1>
-<p>You can write content. This can be whatever you want to say to the
-world!!</p>
-<p>I learned all my data science from <a
-href="https://p8105.com">P8105</a></p>
 <p>To learn about this page, go <a href="about.html">here</a></p>
 <p>#Here are some cool plots</p>
 <p>Here’s a scatterplot</p>
+<p>Set Up</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
 <pre><code>## ── Attaching core tidyverse packages ───────────────── tidyverse 2.0.0 ──
 ## ✔ dplyr     1.2.1     ✔ readr     2.2.0
@@ -378,6 +373,7 @@ href="https://p8105.com">P8105</a></p>
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()
 ## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+<pre class="r"><code>library(p8105.datasets)</code></pre>
 <pre class="r"><code>plot_df =
   tibble(
     x= rnorm(100,2,3),
@@ -386,8 +382,7 @@ href="https://p8105.com">P8105</a></p>
 plot_df |&gt; 
   ggplot(aes(x=x, y=y)) +
   geom_point ()</code></pre>
-<p><img src="plots_files/figure-html/unnamed-chunk-1-1.png" alt="" width="672" /></p>
-</div>
+<p><img src="plots_files/figure-html/unnamed-chunk-2-1.png" alt="" width="672" /></p>
 
 
 

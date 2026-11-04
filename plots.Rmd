@@ -7,22 +7,20 @@ output:
 
 ---
 
-# This is Nina's awesome website
-
-
-
-You can write content. This can be whatever you want to say to the world!!
-
-I learned all my data science from [P8105](https://p8105.com)
-
 To learn about this page, go [here](about.html)
 
 #Here are some cool plots
 
 Here's a scatterplot
 
+Set Up
 ```{r}
 library(tidyverse)
+library(p8105.datasets)
+```
+
+
+```{r}
 plot_df =
   tibble(
     x= rnorm(100,2,3),
