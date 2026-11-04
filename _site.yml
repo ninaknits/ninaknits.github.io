@@ -7,12 +7,12 @@ navbar:
       href: about.html
     - text: "Plots"
       href: plots.html
+    - text: "Experience"
+      href: experience.html
     - icon: fa-envelope fa-lg
       href: mailto:nina.knitowski@gmail.com
     - icon: fa-github fa-lg
       href: http://github.com/ninaknits/
-    - text: "Resume"
-      href: resume.pdf
 output:
   html_document:
     theme: flatly

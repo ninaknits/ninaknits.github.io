@@ -9,7 +9,7 @@ output:
 
 To learn about this page, go [here](about.html)
 
-#Here are some cool plots
+# Here are some cool plots
 
 Here's a scatterplot
 

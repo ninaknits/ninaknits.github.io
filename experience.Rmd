@@ -1,5 +1,5 @@
 ---
-title: "Nina Knitowski's Website"
+title: ""
 output: 
   html_document:
     toc: true
@@ -8,15 +8,86 @@ output:
 
 
 
-# About Nina
+# Research Experience
 
-I graduated from the University of California, Los Angeles (UCLA) with a B.S. in Human Biology and Society in March 2025 with Cum Laude Honors. At UCLA, I was involved in Nueroscience research, worked as an EMT in private transport, and mentor for younger students in the HBS major. Here, I became very interested into social determinants of health and understanding why certain individuals got care over others as I watched these disparities play out in real life as an EMT. 
+## Research Assistant, Department of Epidemiology
+**Columbia University Mailman School of Public Health** · New York, NY  
+*October 2026 – Present*
 
-I am currently a Columbia Mailman School of Public Health Candidate in Epidemiology with a certificate in Applied Data Science and Biostatistics. Here at Mailman, I work as a Research Assistant to improve cervical cancer screening. I am also Vice President of the Mailman Journalism Club where I run the podcast "Kind of a Big Health Deal" to bring conversations of health outside academia by interviewing a variety of Public Health Leaders and highlight community intiatives. I volunteer in the community with Coach Dave, remotely as a Helpline Volunteer with AZLA, and previously with Read Ahead.
+- Work with Dr. Jeanine Genkinger using Women's Health Initiative data to evaluate DNA methylation and biological aging markers as tools to improve cervical cancer screening
+- Conduct an updated literature review and statistical analysis
 
-After Mailman, I hoping to attend Medical School in hopes of treating individuals and advocating for the communities they came from. I think having a background in Public Health will make me a better future physician.
+## Neuroscience Student Researcher
+**UCLA Jessica Rexach & Karen Gylys Lab** · Los Angeles, CA  
+*January 2022 – June 2025*
 
+- Compared isolation methods for extracellular vesicles from organoid media to develop an effective protocol, from size-exclusion chromatography to immunoprecipitation with magnetic beads
+- Evaluated exosomal release in brain-derived organoids with and without the R406W point mutation, which contributes to the spread of tau pathology
+- Analyzed genetic and regional differences in exosomal release of brain-derived organoids
+- Collaborated with other laboratories, balancing project goals with feasibility, limited resources, and varying areas of expertise
+- Presented findings at lab meetings and Undergraduate Research Week
 
-You can [download my resume here](resume.pdf).
+# Professional Experience
 
-You can access [Kind of a Big Health Deal](https://open.spotify.com/show/2V0e35ZtOBREP68FFSidKo)
+## Executive Administration Intern
+**NYC Health + Hospitals / Elmhurst Hospital** · Queens, NY  
+*June 2026 – August 2026*
+
+- Supported the Chief of Ancillary Services in overseeing operations for 12 clinical departments
+- Led a Radiology initiative to integrate a new database system, bridging training gaps and improving staff competency tracking
+- Digitized and reorganized sensitive HR personnel files, improving record accessibility and compliance with hospital data standards
+
+## Emergency Medical Technician
+**Millville Fire Department** · Delaware  
+*June 2025 – Present*
+
+- Respond to 911 calls in Southern Delaware, providing rapid assessment, life-saving care, and safe transport in high-stress situations, following medical protocols and HIPAA standards
+- Received the Phoenix Award (Sussex EMS, July 2025) for saving a patient's life with CPR during cardiac arrest
+
+## Emergency Medical Technician
+**PRN Ambulance** · Los Angeles, CA  
+*April 2024 – June 2025*
+
+- Performed patient assessments, intermediate medical care, and inter-facility transfers, with accurate documentation and clear communication
+
+# Leadership
+
+## Vice President & Executive Podcast Lead
+**Columbia Mailman School of Public Health Journalism Club**  
+*September 2026 – Present (Podcast Host 2025–2026)*
+
+- Founded *Kind of a Big Health Deal*, a student-run podcast advancing public health literacy on healthcare affordability, food insecurity, care access, and neighborhood mortality disparities across NYC
+- Produced and hosted a debut mini-series featuring Dr. Robert Fullilove, Dr. Heather Butts, Nobel Laureate Dr. Harold Varmus, and Nina Schwalbe, and helped organize a student round table
+
+## Mentor
+**UCLA Society and Genetics Club**  
+*September 2024 – March 2025*
+
+- Mentored 3 underclassmen in the major through weekly meetings on academic planning
+
+# Volunteer & Community Health
+
+## Athletic Mentor and Tutor
+**Community Public Health Literacy (CIPHER)**  
+*September 2025 – Present*
+
+- Tutor elementary school students in STEM to build academic confidence and foundational literacy
+- Mentor young girls through athletics centered on the motto "Go Girls Go"
+
+## Read Ahead Volunteer
+**Read Ahead, PS 67**  
+*September 2025 – Present*
+
+- Provide weekly one-on-one literacy support to a 4th grader
+
+## Helpline Volunteer
+**Alzheimer's Los Angeles** · Remote  
+*March 2025 – Present*
+
+- Provide support and resources to patients and families affected by Alzheimer's disease
+
+## Pediatric Literacy Volunteer
+**Venice Family Clinic** · Los Angeles, CA  
+*February 2025 – June 2025*
+
+- Promoted early childhood literacy in low-income communities

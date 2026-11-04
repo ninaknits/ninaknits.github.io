@@ -330,6 +330,9 @@ div.tocify {
   <a href="plots.html">Plots</a>
 </li>
 <li>
+  <a href="experience.html">Experience</a>
+</li>
+<li>
   <a href="mailto:nina.knitowski@gmail.com">
     <span class="fa fa-envelope fa-lg"></span>
      
@@ -340,9 +343,6 @@ div.tocify {
     <span class="fa fa-github fa-lg"></span>
      
   </a>
-</li>
-<li>
-  <a href="resume.pdf">Resume</a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -359,17 +359,18 @@ div.tocify {
 
 
 <p>To learn about this page, go <a href="about.html">here</a></p>
-<p>#Here are some cool plots</p>
+<div id="here-are-some-cool-plots" class="section level1">
+<h1>Here are some cool plots</h1>
 <p>Here’s a scatterplot</p>
 <p>Set Up</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
-<pre><code>## ── Attaching core tidyverse packages ───────────────── tidyverse 2.0.0 ──
+<pre><code>## ── Attaching core tidyverse packages ──────── tidyverse 2.0.0 ──
 ## ✔ dplyr     1.2.1     ✔ readr     2.2.0
 ## ✔ forcats   1.0.1     ✔ stringr   1.6.0
 ## ✔ ggplot2   4.0.3     ✔ tibble    3.3.1
 ## ✔ lubridate 1.9.5     ✔ tidyr     1.3.2
 ## ✔ purrr     1.2.2     
-## ── Conflicts ─────────────────────────────────── tidyverse_conflicts() ──
+## ── Conflicts ────────────────────────── tidyverse_conflicts() ──
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()
 ## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
@@ -383,6 +384,7 @@ plot_df |&gt;
   ggplot(aes(x=x, y=y)) +
   geom_point ()</code></pre>
 <p><img src="plots_files/figure-html/unnamed-chunk-2-1.png" alt="" width="672" /></p>
+</div>
 
 
 

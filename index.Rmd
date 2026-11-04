@@ -11,6 +11,8 @@ output:
 
 Hi everyone! I am a second year MPH candidate at Columbia Mailman's School of Public Health. My long-term goal is to bridge the gaps in our healthcare system that leave underserved populations behind—through data-driven research, public health policy, and compassionate, community-centered care. 
 
+My website will highlight my education and professional experiences and show some plots I know how to make usually publically avialable data.
+
 To learn about this Nina Knitowski, go [here](about.html)
 
 # Check out my About Page to Learn More About my Background

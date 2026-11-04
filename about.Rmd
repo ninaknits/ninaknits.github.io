@@ -1,5 +1,5 @@
 ---
-title: "Nina Knitowski's Website"
+title: "Hi I am, Nina Knitowski"
 output: 
   html_document:
     toc: true
@@ -8,7 +8,7 @@ output:
 
 
 
-# About Nina
+# About Me
 
 I graduated from the University of California, Los Angeles (UCLA) with a B.S. in Human Biology and Society in March 2025 with Cum Laude Honors. At UCLA, I was involved in Nueroscience research, worked as an EMT in private transport, and mentor for younger students in the HBS major. Here, I became very interested into social determinants of health and understanding why certain individuals got care over others as I watched these disparities play out in real life as an EMT. 
 
@@ -19,4 +19,4 @@ After Mailman, I hoping to attend Medical School in hopes of treating individual
 
 You can [download my resume here](resume.pdf).
 
-You can access [Kind of a Big Health Deal](https://open.spotify.com/show/2V0e35ZtOBREP68FFSidKo)
+You can access my podcast [Kind of a Big Health Deal](https://open.spotify.com/show/2V0e35ZtOBREP68FFSidKo)
