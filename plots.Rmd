@@ -1,5 +1,5 @@
 ---
-title: "Plots"
+title: "Plotly Code"
 output: 
   html_document:
     toc: true
@@ -9,22 +9,21 @@ output:
 
 To learn about this page, go [here](about.html)
 
-# Here are some cool plots
 
 
-```{r, include = FALSE}
+```{r}
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
 ```
 
 
-```{r, echo = FALSE}
+```{r}
 data("rest_inspec")
 ```
 
 # Here's a scatterplot of Inspection Scores Over Time for Manhattan Pizza Restaurants
-```{r, echo = FALSE}
+```{r}
 plot1= rest_inspec |>
   filter(
     boro == "Manhattan",
@@ -39,20 +38,19 @@ plot1= rest_inspec |>
   plot_ly(
     x = ~inspection_date, y = ~score, type = "scatter", mode = "markers",
     color = ~grade, text = ~text_label, alpha = 0.75)
-plot1
 ```
 
 # Here's a boxplot of Inspection Scores by Cuisine: 10 Most Common Cuisines in Manhattan
 
-```{r, echo = FALSE}
+```{r}
 top_cuisines = rest_inspec |>
   distinct(camis, cuisine_description) |>
   count(cuisine_description, sort = TRUE) |>
   slice_head(n = 10) |>
   pull(cuisine_description)
 
-rest_inspec |>
-  filter(
+plot2= rest_inspec |>
+    filter(
     boro == "Queens",
     cuisine_description %in% top_cuisines,
     !is.na(score)
@@ -73,8 +71,8 @@ rest_inspec |>
 ```
 # Here's a column bar of Restaurant Inspection Grades by Borough
 
-```{r, echo = FALSE}
-rest_inspec |>
+```{r}
+plot3= rest_inspec |>
   filter(grade %in% c("A", "B", "C"), boro != "Missing") |>
   distinct(camis, inspection_date, .keep_all = TRUE) |>
   count(boro, grade) |>

@@ -1,0 +1,103 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data("rest_inspec")
+```
+
+### Plots
+
+```{r}
+plot1 = rest_inspec |>
+  filter(
+    boro == "Manhattan",
+    cuisine_description == "Pizza",
+    !is.na(score),
+    grade %in% c("A", "B", "C")
+  ) |>
+  distinct(camis, inspection_date, .keep_all = TRUE) |>
+  mutate(text_label = str_c("Restaurant: ", dba,
+                            "\nScore: ", score,
+                            "\nGrade: ", grade)) |>
+  plot_ly(
+    x = ~inspection_date, y = ~score, type = "scatter", mode = "markers",
+    color = ~grade, text = ~text_label, alpha = 0.75) |> 
+  layout(
+    title = "Manhattan Pizza Inspection Scores Over Time",
+    xaxis = list(title = "Inspection date"),
+    yaxis = list(title = "Inspection score (higher = more violations)"),
+    legend = list(title = list(text = "Grade"))
+  )
+
+plot1
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+
+
+```{r}
+top_cuisines = rest_inspec |>
+  distinct(camis, cuisine_description) |>
+  count(cuisine_description, sort = TRUE) |>
+  slice_head(n = 10) |>
+  pull(cuisine_description)
+
+plot2 = rest_inspec |>
+  filter(
+    boro == "Queens",
+    cuisine_description %in% top_cuisines,
+    !is.na(score)
+  ) |>
+  distinct(camis, inspection_date, .keep_all = TRUE) |>
+  mutate(
+    cuisine_description = str_replace(cuisine_description, "Latin.*", "Latin"),
+    cuisine_description = fct_reorder(cuisine_description, score)
+  ) |>
+  plot_ly(
+    x = ~cuisine_description, y = ~score, color = ~cuisine_description,
+    type = "box", colors = "viridis") |>
+  layout(
+    title = "Inspection Scores for Top 10 Cuisines in Queens",
+    margin = list(t = 60),
+    showlegend = FALSE,
+    xaxis = list(title = "", tickangle = -45),
+    yaxis = list(title = "Inspection score (higher = more violations)")
+  )
+
+plot2
+```
+
+-----------------------------------------------------------------------
+
+
+
+```{r}
+plot3 = rest_inspec |>
+  filter(grade %in% c("A", "B", "C"), !boro %in% c("Missing", "0")) |> 
+  distinct(camis, inspection_date, .keep_all = TRUE) |>
+  count(boro, grade) |>
+  mutate(boro = fct_reorder(boro, n)) |>
+  plot_ly(x = ~boro, y = ~n, color = ~grade, type = "bar", colors = "viridis") |>
+  layout(
+    barmode = "group",
+    title = "Restaurant Grades by Borough",
+    xaxis = list(title = ""),
+    yaxis = list(title = "Number of inspections"),
+    legend = list(title = list(text = "Grade"), orientation = "h", y = 1.05)
+  )
+
+plot3
+```
+
+
