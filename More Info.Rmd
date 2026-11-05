@@ -1,0 +1,19 @@
+---
+title: "Hi I am, Nina Knitowski"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+As an EMT in private transport, I saw firsthand how social circumstances shaped who received care and who didn’t. That experience drew me to the social determinants of health. I graduated cum laude from UCLA in March 2025 with a B.S. in Human Biology and Society, where I also conducted neuroscience research and mentored younger students in the major.
+
+I am now an MPH candidate in Epidemiology at Columbia Mailman School of Public Health, pursuing a certificate in Applied Data Science and Biostatistics. As a Research Assistant, I work on improving cervical cancer screening [add one detail: population, method, or goal]. As Vice President of the Mailman Journalism Club, I run the podcast Kind of a Big Health Deal, bringing public health conversations beyond academia through interviews with health leaders and spotlights on community initiatives. I also volunteer with Coach Dave [brief description], serve remotely as a helpline volunteer with AZLA, and previously mentored students with Read Ahead.
+
+After Mailman, I plan to attend medical school. I want to treat patients while advocating for the communities they come from, and my public health training will help me understand the forces that shape their health long before they reach the exam room.
+
+
+You can [download my resume here](resume.pdf).
+
+You can access my podcast [Kind of a Big Health Deal](https://open.spotify.com/show/2V0e35ZtOBREP68FFSidKo)

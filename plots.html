@@ -11,7 +11,7 @@
 
 
 
-<title>Plotly Code</title>
+<title>Plots</title>
 
 <script src="site_libs/header-attrs-2.32/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -324,10 +324,10 @@ div.tocify {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="about.html">About</a>
+  <a href="about.html">More Information</a>
 </li>
 <li>
-  <a href="plots.html">Plots</a>
+  <a href="plots.html">Plotly Code</a>
 </li>
 <li>
   <a href="experience.html">Experience</a>
@@ -356,79 +356,30 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Plotly Code</h1>
+<h1 class="title toc-ignore">Plots</h1>
 
 </div>
 
 
+<div id="this-is-ninas-awesome-website" class="section level1">
+<h1>This is Nina’s awesome website</h1>
+<p>You can write content. This can be whatever you want to say to the
+world!!</p>
+<p>I learned all my data science from <a
+href="https://p8105.com">P8105</a></p>
 <p>To learn about this page, go <a href="about.html">here</a></p>
+<p>#Here are some cool plots</p>
+<p>Here’s a scatterplot</p>
 <pre class="r"><code>library(tidyverse)
-library(p8105.datasets)
-library(plotly)</code></pre>
-<pre class="r"><code>data(&quot;rest_inspec&quot;)</code></pre>
-<div
-id="heres-a-scatterplot-of-inspection-scores-over-time-for-manhattan-pizza-restaurants"
-class="section level1">
-<h1>Here’s a scatterplot of Inspection Scores Over Time for Manhattan
-Pizza Restaurants</h1>
-<pre class="r"><code>plot1= rest_inspec |&gt;
-  filter(
-    boro == &quot;Manhattan&quot;,
-    cuisine_description == &quot;Pizza&quot;,
-    !is.na(score),
-    grade %in% c(&quot;A&quot;, &quot;B&quot;, &quot;C&quot;)
-  ) |&gt;
-  distinct(camis, inspection_date, .keep_all = TRUE) |&gt;
-  mutate(text_label = str_c(&quot;Restaurant: &quot;, dba,
-                            &quot;\nScore: &quot;, score,
-                            &quot;\nGrade: &quot;, grade)) |&gt;
-  plot_ly(
-    x = ~inspection_date, y = ~score, type = &quot;scatter&quot;, mode = &quot;markers&quot;,
-    color = ~grade, text = ~text_label, alpha = 0.75)</code></pre>
-</div>
-<div
-id="heres-a-boxplot-of-inspection-scores-by-cuisine-10-most-common-cuisines-in-manhattan"
-class="section level1">
-<h1>Here’s a boxplot of Inspection Scores by Cuisine: 10 Most Common
-Cuisines in Manhattan</h1>
-<pre class="r"><code>top_cuisines = rest_inspec |&gt;
-  distinct(camis, cuisine_description) |&gt;
-  count(cuisine_description, sort = TRUE) |&gt;
-  slice_head(n = 10) |&gt;
-  pull(cuisine_description)
-
-plot2= rest_inspec |&gt;
-    filter(
-    boro == &quot;Queens&quot;,
-    cuisine_description %in% top_cuisines,
-    !is.na(score)
-  ) |&gt;
-  distinct(camis, inspection_date, .keep_all = TRUE) |&gt;
-  mutate(
-    cuisine_description = str_replace(cuisine_description, &quot;Latin.*&quot;, &quot;Latin&quot;),
-    cuisine_description = fct_reorder(cuisine_description, score)
-  ) |&gt;
-  plot_ly(
-    x = ~cuisine_description, y = ~score, color = ~cuisine_description,
-    type = &quot;box&quot;, colors = &quot;viridis&quot;) |&gt;
-  layout(
-    showlegend = FALSE,
-    xaxis = list(title = &quot;&quot;, tickangle = -45),
-    yaxis = list(title = &quot;Inspection score (higher = more violations)&quot;)
-  )</code></pre>
-</div>
-<div id="heres-a-column-bar-of-restaurant-inspection-grades-by-borough"
-class="section level1">
-<h1>Here’s a column bar of Restaurant Inspection Grades by Borough</h1>
-<pre class="r"><code>plot3= rest_inspec |&gt;
-  filter(grade %in% c(&quot;A&quot;, &quot;B&quot;, &quot;C&quot;), boro != &quot;Missing&quot;) |&gt;
-  distinct(camis, inspection_date, .keep_all = TRUE) |&gt;
-  count(boro, grade) |&gt;
-  mutate(boro = fct_reorder(boro, n)) |&gt;
-  plot_ly(x = ~boro, y = ~n, color = ~grade, type = &quot;bar&quot;, colors = &quot;viridis&quot;) |&gt;
-  layout(barmode = &quot;group&quot;,
-         xaxis = list(title = &quot;&quot;),
-         yaxis = list(title = &quot;Number of inspections&quot;))</code></pre>
+plot_df =
+  tibble(
+    x= rnorm(100,2,3),
+    y= x + rnorm(100)
+  )
+plot_df |&gt; 
+  ggplot(aes(x=x, y=y)) +
+  geom_point ()</code></pre>
+<p><img src="plots_files/figure-html/unnamed-chunk-1-1.png" alt="" width="672" /></p>
 </div>
 
 

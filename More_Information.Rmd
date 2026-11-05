@@ -1,0 +1,21 @@
+---
+title: "Hi I am, Nina Knitowski"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+<br>
+
+## More Information
+
+As an EMT, first in Los Angeles and now on 911 calls in Delaware, I’ve seen firsthand how social circumstances shape who receives care and who doesn’t. In July 2025, I received the Phoenix Award from Sussex EMS for helping save a patient in cardiac arrest. That work drew me to the social determinants of health. I graduated cum laude from UCLA in March 2025 with a B.S. in Human Biology and Society (3.94 GPA). There, I spent three years researching the role of exosomes in the spreadspread of tau pathology in Alzheimer’s disease, contributed to three published abstracts, and mentored underclassmen in my major.
+
+I am now an MPH candidate in Epidemiology at Columbia Mailman School of Public Health and a Wyman Scholar, pursuing a certificate in Applied Data Science and Biostatistics. As a Research Assistant, I work to improve cervical cancer screening through DNA methylation and biological aging analysis. As Vice President of the Mailman Journalism Club, I launched and host the podcast Kind of a Big Health Deal, which brings conversations on healthcare affordability, food insecurity, and care access beyond academia. Guests have included Nobel Laureate Dr. Harold Varmus and civil rights advocates Dr. Robert Fullilove and Dr. Heather Butts. I also tutor and mentor young girls through CIPHER, support literacy with Read Ahead, and serve as a helpline volunteer with Alzheimer’s Los Angeles. 
+
+After Mailman, I plan to attend medical school. I want to treat patients while advocating for the communities they come from, and my public health training will help me understand the forces that shape their health long before they reach the exam room
+
+You can download my resume [here](resume.pdf).
+
+You can access my podcast [Kind of a Big Health Deal](https://open.spotify.com/show/2V0e35ZtOBREP68FFSidKo)
