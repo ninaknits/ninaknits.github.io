@@ -14,8 +14,9 @@ library(plotly)
 data("rest_inspec")
 ```
 
-### Plots
-
+Column {data-width=550}
+-----------------------------------------------------------------------
+### Chart A
 ```{r}
 plot1 = rest_inspec |>
   filter(
@@ -41,11 +42,11 @@ plot1 = rest_inspec |>
 plot1
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
 
-
+### Chart B
 ```{r}
 top_cuisines = rest_inspec |>
   distinct(camis, cuisine_description) |>
@@ -78,10 +79,12 @@ plot2 = rest_inspec |>
 plot2
 ```
 
+
+
 -----------------------------------------------------------------------
 
 
-
+### Chart C
 ```{r}
 plot3 = rest_inspec |>
   filter(grade %in% c("A", "B", "C"), !boro %in% c("Missing", "0")) |> 

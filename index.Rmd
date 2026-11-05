@@ -1,5 +1,5 @@
 ---
-title: "Nina Knitowski's Website"
+title: "Nina Knitowski"
 output: 
   html_document:
     toc: true
@@ -7,24 +7,24 @@ output:
 
 ---
 
-# Brief Introdcution
+<br>
+
+<img src="images/Headshot.jpg" style="float: right; width: 300px; margin-left: 25px; margin-bottom: 15px;">
+
+# About
 
 Hi everyone! I am a second year MPH candidate at Columbia Mailman's School of Public Health. My long-term goal is to bridge the gaps in our healthcare system that leave underserved populations behind—through data-driven research, public health policy, and compassionate, community-centered care. 
 
-My website will highlight my education and professional experiences and show some plots I know how to make usually publically avialable data.
+My website will highlight my education, professional experiences, and show some plots I made using publically available restaurant inspection data in NYC.
 
-To learn about this Nina Knitowski, go [here](about.html)
+## Interests
+- Health equity in rural communities
+- Understanding the Social Determinants of Health Into Quantiative Data
+- Intersection of Public Health and Medicine
+ -Epidemiological methods and data visualization
+-Using public data to inform health policy
 
-# Check out my About Page to Learn More About my Background
-
-To go home, click [here](index.html)
-
-# Headshot
-
-<img src="images/Headshot.jpg" style="width:75%">
-
-
-# Other Links 
+# Contact Information and Links
 
 To see my [linkedin](https://www.linkedin.com/in/nina-knitowski/)
 
@@ -32,9 +32,6 @@ To see my coding work in [github](https://github.com/ninaknits)
 
 [Email me](mailto:nina.knitowski@gmail.com)
 
-# Scatter Plots
-
-Another cool thing is scattperplots. Check this out [out](plots.html)
 
 
 
